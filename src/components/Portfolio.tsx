@@ -179,8 +179,8 @@ export default function Portfolio() {
           <div className="relative min-h-[420px] overflow-hidden rounded-[2rem] border border-white/[0.08] bg-[#0d081a]/80 backdrop-blur-xl shadow-[0_30px_80px_rgba(20,8,53,0.35)]">
             <div className="absolute inset-0 bg-[linear-gradient(180deg,_rgba(99,102,241,0.12),_transparent_45%)]" />
             <img
-              src="/images/project-bot.jpg"
-              alt="AI automation showcase"
+              src="/images/telegram-premium-visual.jpg"
+              alt="AI Telegram Assistant premium visual"
               className="h-full w-full object-cover mix-blend-screen opacity-95"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/80" />
@@ -235,8 +235,8 @@ export default function Portfolio() {
             <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(139,92,246,0.18),_transparent_45%)]" />
             <div className="relative rounded-[1.75rem] overflow-hidden border border-white/[0.06] bg-[#100a1f]/95">
               <img
-                src="/images/project-bot.jpg"
-                alt="Automation architecture"
+                src="/images/telegram-flow-screenshot.jpg"
+                alt="Telegram assistant workflow"
                 className="h-full w-full object-cover opacity-90"
               />
               <div className="absolute inset-0 bg-[linear-gradient(180deg,_rgba(10,5,20,0.25),_rgba(10,5,20,0.55))]" />
@@ -431,8 +431,8 @@ export default function Portfolio() {
             <div className="relative min-h-[420px] overflow-hidden rounded-[2rem] border border-white/[0.08] bg-[#0d081a]/80 backdrop-blur-xl shadow-[0_30px_80px_rgba(20,8,53,0.35)]">
               <div className="absolute inset-0 bg-[linear-gradient(180deg,_rgba(99,102,241,0.12),_transparent_45%)]" />
               <img
-                src="/images/project-bot.jpg"
-                alt="AI lead qualification dashboard"
+                src="/images/lead-premium-visual.jpg"
+                alt="AI Lead Qualification System premium visual"
                 className="h-full w-full object-cover mix-blend-screen opacity-95"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/80" />
@@ -485,8 +485,8 @@ export default function Portfolio() {
               <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(139,92,246,0.18),_transparent_45%)]" />
               <div className="relative rounded-[1.75rem] overflow-hidden border border-white/[0.06] bg-[#100a1f]/95">
                 <img
-                  src="/images/project-bot.jpg"
-                  alt="Lead qualification automation"
+                  src="/images/lead-qualification-screenshot.jpg"
+                  alt="Lead qualification workflow"
                   className="h-full w-full object-cover opacity-90"
                 />
                 <div className="absolute inset-0 bg-[linear-gradient(180deg,_rgba(10,5,20,0.25),_rgba(10,5,20,0.55))]" />
