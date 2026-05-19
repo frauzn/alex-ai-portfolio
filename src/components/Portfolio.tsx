@@ -2,8 +2,6 @@ import { motion } from 'framer-motion';
 import {
   ArrowRight,
   Sparkles,
-  CheckCircle2,
-  ExternalLink,
   Zap,
   ShieldCheck,
   MessageSquare,
@@ -14,23 +12,23 @@ import {
 const techStack = [
   { name: 'GPT-4', color: '#c084fc' },
   { name: 'n8n', color: '#8b5cf6' },
-  { name: 'Telegram', color: '#38bdf8' },
+  { name: 'Telegram Bot', color: '#38bdf8' },
   { name: 'OpenAI API', color: '#a78bfa' },
 ];
 
 const problemPoints = [
-  'Respond instantly',
-  'Work 24/7 without delays',
-  'Automate repetitive communication',
-  'Collect customer data automatically',
+  'Instant responses',
+  'Automated communication',
+  '24/7 availability',
+  'Scalable customer support',
 ];
 
 const solutionPoints = [
-  'Receives customer messages',
-  'Processes requests with AI',
-  'Generates human-like responses',
-  'Stores lead data',
-  'Sends instant replies',
+  'Receives Telegram messages',
+  'Processes requests through AI',
+  'Generates natural responses',
+  'Automates communication',
+  'Stores lead information automatically',
 ];
 
 const featureCards = [
@@ -40,12 +38,12 @@ const featureCards = [
     icon: Zap,
   },
   {
-    title: 'Lead Qualification',
+    title: 'Smart Lead Qualification',
     description: 'Automatic lead scoring and categorization to keep the sales pipeline clean.',
     icon: ShieldCheck,
   },
   {
-    title: 'Instant Responses',
+    title: 'Instant AI Responses',
     description: 'Fast, conversational replies that feel natural and human-led.',
     icon: MessageSquare,
   },
@@ -57,11 +55,11 @@ const featureCards = [
 ];
 
 const results = [
-  'Up to 80% less manual communication',
-  'Instant response time',
+  'Faster customer communication',
   'Automated lead collection',
-  'Improved customer experience',
-  'Scalable automation infrastructure',
+  'Instant response time',
+  'Reduced manual workload',
+  'Improved user experience',
 ];
 
 export default function Portfolio() {
@@ -90,10 +88,10 @@ export default function Portfolio() {
             </div>
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight text-white font-syne tracking-tight">
-                AI Automation That Works
+                AI Telegram Assistant
               </h1>
               <p className="text-base md:text-xl text-zinc-300 max-w-2xl leading-8">
-                AI-powered Telegram assistant that automates customer communication, qualifies leads, and saves hours of manual work.
+                Smart AI-powered Telegram chatbot that automates customer communication, answers questions instantly, and improves lead handling.
               </p>
             </div>
 
@@ -119,7 +117,7 @@ export default function Portfolio() {
               >
                 Contact Me
               </a>
-              <span className="text-sm text-zinc-500">Premium AI workflow design for startups and founders.</span>
+              <span className="text-sm text-zinc-500">Premium AI startup case study with cinematic polish.</span>
             </div>
           </div>
 
@@ -154,17 +152,17 @@ export default function Portfolio() {
             The Problem
             <span className="h-px w-12 bg-violet-500/40" />
           </div>
-          <p className="text-xl font-semibold text-white font-syne">The client spent too much time answering repetitive customer messages manually.</p>
+          <p className="text-xl font-semibold text-white font-syne">The business spent too much time answering repetitive Telegram messages manually.</p>
           <p className="text-zinc-400 max-w-xl mx-auto leading-8">
-            Slow replies caused lost leads and inconsistent communication. The business needed a system that could deliver reliable conversational automation without friction.
+            Slow replies reduced customer engagement and caused missed leads. The client needed:
           </p>
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {problemPoints.map((point) => (
               <div
                 key={point}
                 className="rounded-3xl border border-white/[0.06] bg-white/[0.03] px-6 py-5 text-left text-sm text-zinc-300 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]"
               >
-                {point}
+                <span className="font-semibold text-white">{point}</span>
               </div>
             ))}
           </div>
@@ -199,10 +197,10 @@ export default function Portfolio() {
           <div className="space-y-8">
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-violet-300 mb-3">The Solution</p>
-              <h2 className="text-3xl md:text-4xl font-bold text-white font-syne">I built an AI-powered automation system using Telegram, n8n, and GPT-4.</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white font-syne">I created an AI-powered Telegram assistant using GPT-4 and n8n automation.</h2>
             </div>
             <p className="text-zinc-400 leading-8 max-w-2xl">
-              The workflow automatically receives customer messages, processes requests with AI, generates human-like responses, stores lead data, and sends instant replies — all without manual handoffs.
+              The system receives Telegram messages, processes requests through AI, generates natural responses, automates communication, and stores lead information automatically.
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
               {solutionPoints.map((point) => (
@@ -321,7 +319,6 @@ export default function Portfolio() {
                 className="rounded-3xl border border-white/[0.06] bg-white/[0.03] p-6 text-sm text-zinc-300 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]"
               >
                 <p className="font-semibold text-white mb-3">{result}</p>
-                <div className="h-1 w-10 rounded-full bg-violet-500/30" />
               </div>
             ))}
           </div>
@@ -336,8 +333,8 @@ export default function Portfolio() {
           className="rounded-[2rem] border border-violet-500/20 bg-[#10081c]/90 p-12 text-center shadow-[0_45px_120px_rgba(20,8,60,0.35)] backdrop-blur-xl"
         >
           <div className="mx-auto max-w-3xl space-y-6">
-            <p className="text-sm uppercase tracking-[0.3em] text-violet-300">Need AI automation for your business?</p>
-            <h2 className="text-4xl md:text-5xl font-bold text-white font-syne leading-tight">Let’s build a custom AI system for your workflow.</h2>
+            <p className="text-sm uppercase tracking-[0.3em] text-violet-300">Need a custom AI chatbot for your business?</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-white font-syne leading-tight">Let’s build an automation system tailored to your workflow.</h2>
             <a
               href="#contact"
               className="inline-flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-violet-600 to-purple-700 px-10 py-4 text-sm font-semibold text-white shadow-lg shadow-violet-900/30 transition-transform duration-300 hover:-translate-y-0.5"
